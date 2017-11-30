@@ -1,0 +1,28 @@
+{
+  "courses": [
+    {
+      "title": "AngularJS",
+      "desc": "AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. AngularJS's data binding and dependency injection eliminate much of the code you would otherwise have to write.",
+      "icon": "https://material.angularjs.org/latest/img/icons/angular-logo.svg",
+      "color": "crimson"
+    },
+    {
+      "title": "JavaScript",
+      "desc": "project builder",
+      "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2000px-Unofficial_JavaScript_logo_2.svg.png",
+      "color": "#f7df1e"
+    },
+    {
+      "title": "CSS Grid",
+      "desc": "Awesome CSS tool",
+      "icon": "",
+      "color": "#65b6f7"
+    },
+    {
+      "title": "BEM",
+      "desc": "No more stupid css class names)",
+      "icon": "",
+      "color": "#442a9d"
+    }
+  ]
+}

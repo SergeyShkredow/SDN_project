@@ -1,0 +1,144 @@
+.block
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12)
+  border-radius: 2px
+  width: 100%
+  height: 100%
+  background-color: white
+  //padding: 20px
+
+.block-box
+  grid-column-end: span 4
+  width: auto
+  margin: 0
+  
+.block-header > h2
+  padding: 15px
+  padding-left: 70px
+
+.block-header
+  position: relative
+
+.icon-settings
+  position: absolute
+  left: 10px
+  top: 5px
+  width: 50px
+  height: 50px
+  background-size: contain
+
+.block-description
+  padding: 15px
+  text-align: justify
+  flex: 2
+
+.block-body
+  display: flex
+  height: 275px
+
+.action
+  flex: 1
+  align-self: center
+  display: flex
+  flex-flow: column
+  position: relative
+  button
+    background: 0 0
+    border: none
+    border-radius: 2px
+    color: #757575
+    position: relative
+    height: 36px
+    margin: 0
+    min-width: 64px
+    padding: 0 16px
+    display: inline-block
+    font-family: 'Roboto', Helvetica, Arial, sans-serif
+    font-size: 14px
+    font-weight: 500
+    text-transform: uppercase
+    letter-spacing: 0
+    overflow: hidden
+    will-change: box-shadow
+    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background-color .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1)
+    outline: none
+    cursor: pointer
+    text-decoration: none
+    text-align: center
+    line-height: 36px
+    vertical-align: middle
+
+button
+  &:hover
+    background-color: rgba(158,158,158,.2)
+
+button
+  &:active
+    background-color: rgba(158,158,158,.4)
+
+
+button.icon
+  border-radius: 50%
+  font-size: 24px
+  height: 32px
+  margin-left: 0
+  margin-right: 0
+  min-width: 32px
+  width: 32px
+  padding: 0
+  overflow: hidden
+  line-height: normal
+
+button .material-icons
+  position: absolute
+  top: 50%
+  left: 20%
+  -webkit-transform: translate(-12px,-12px)
+  transform: translate(-12px,-12px)
+  line-height: 24px
+  width: 24px
+  vertical-align: middle
+
+.action__preview
+  position: relative
+
+.action__preview-window
+  display: none
+  position: absolute
+  top: 70px
+  righ: 100px
+  width: 300px
+  height: 300px
+  background-color: #ededed
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12)
+  border-radius: 2px
+  z-index: 10
+
+.action
+  &:hover
+    .action__preview-window
+      display: block
+
+.action
+  .tooltips
+    &:hover
+      .tooltip-text
+        visibility: visible
+.tooltips
+  .tooltip-text
+    visibility: visible
+    width: 120px
+    background-color: black
+    color: #fff
+    text-align: center
+    padding: 5px 0
+    border-radius: 6px
+    position: absolute
+    z-index: 999
+    top: -5px
+    right: 105%
+
+.positioned
+  padding: 20px
+  position: absolute
+  right: 10px
+  bottom: 0px

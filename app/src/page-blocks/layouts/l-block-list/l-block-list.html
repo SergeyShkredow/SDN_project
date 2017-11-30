@@ -1,0 +1,25 @@
+
+<div class="block-box" ng-repeat="course in flow.blockList.courses">
+    <div class="block">
+        <div class="block-header">
+            <div ng-style="{'background-image':'url(' + course.icon + ')'}" class="icon-settings"></div>
+            <h2 ng-style="{background : course.color}">{{ course.title }}</h2>
+        </div>
+
+       <div class="block-body">
+           <div class="block-description"><p>{{ course.description}}</p></div>
+           <div class="action">
+               <button class="action__preview tooltips">
+                   <span class="tooltip-text">Hello</span>
+                   <i class="material-icons">remove_red_eye</i>Preview
+                   <div class="action__preview-window">foo foo foo</div>
+               </button>
+               <button ng-click="goCourse({ id: course.id })">Details</button>
+
+           </div>
+       </div>
+       </div>
+    </div>
+</div>
+
+<button class="positioned">button</button>

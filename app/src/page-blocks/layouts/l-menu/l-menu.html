@@ -1,0 +1,12 @@
+
+<div>
+    <ul class="menu__list">
+        <li ng-repeat="item in flow.menu.model.list" class="menu__list-item" ng-click="select(item)" ng-class="{active : isActive(item)}" >
+                <div>
+                    {{ item.title }}
+                </div>
+        </li>
+    </ul>
+</div>
+
+

@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+# Commenting this out is preferred by some people, see
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
+node_modules
+package-lock.json
+
+# Users Environment Variables
+.lock-wscript
+*.suo
+.idea
+.vscode/*
+
+# minified & compiled files
+api/uploads/logos/custom/*
+!api/uploads/logos/custom/logo_att.png
+!api/uploads/logos/custom/logo_bezel.png
+!api/uploads/logos/custom/logo_mms.png
+api/uploads/data/*
+client/env/personal.json
+server/config/personal.js
+.DS_Store
+bin-docs
+bin
+client/libs/bower/
+
+vendor
+build
+
