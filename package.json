@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://SergeyShkredow@bitbucket.org/SergeyShkredow/angular_team_lwa.git"
+    "url": "git+https://SergeyShkredow@github.org/SergeyShkredow/sdn_project.git"
   },
-  "author": "Angular_Team",
+  "author": "SDN_Team",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/SergeyShkredow/angular_team_lwa#readme",
+  "homepage": "https://github.com/SergeyShkredow/SDN_project#readme",
   "dependencies": {
     "angular": "^1.6.6",
     "angular-ui-router": "^0.4.3"
